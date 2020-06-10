@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 img {
   max-width: 100%;
 }
+
 body {
   background-color: #000;
 }
@@ -13,22 +15,25 @@ body {
 .hero {
   background-color: #000;
 }
+
 .header {
   background-color: #000;
 }
+
 .container {
   width: 90%;
   margin: auto;
 
 }
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
+
+
 .logo {
   color: #fff;
+  text-align: center;
+
 }
+
 .logo span {
   color: orange;
 }
@@ -36,47 +41,59 @@ body {
 .ul {
   display: flex;
   padding: 20px 0;
+  justify-content: center;
 }
 
 .list {
   list-style: none;
-  margin-left: 30px;
+  margin-right: .5em;
 }
+
 .list__links {
+  font-size: .79rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   transition: all 400ms ease;
+
 }
+
 .list__links:hover {
   text-decoration: underline;
   color: #AB00FF;
 }
 
-
 .banner {
   background-color: #111;
 }
+
 .banner__content {
-  padding: 130px 0;
+  padding: 40px 0;
+  text-align: center;
 
 }
 .banner__content h1 {
   color: #fff;
-  font-size: 3.5rem;
-  padding-bottom: 30px;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
   font-family: 'Abril Fatface', cursive;
-  line-height: 70px;
+  line-height: 50px;
+
+
 }
+
 .banner__content p {
   color: #fff;
-  font-size: 1.2rem;
-  padding-bottom: 100px;
+  font-size: 1rem;
+  padding-bottom: 20px;
   font-family: 'Questrial', sans-serif;
-  width: 70%;
+
 }
 
 .banner__content a {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   padding: 20px 30px;
@@ -85,52 +102,61 @@ body {
   border-radius: 10px;
   font-family: 'Questrial', sans-serif;
   transition: all 400ms ease;
+
 }
+
 .banner__content a:hover {
   background-color: #AB00FF;
 }
 .banner__img {
   width: 60%;
+  display: none;
 }
+
 .banner__img img {
   width: 100%;
 }
 
 .change {
   background-color: #fff;
-  padding: 100px 0;
+  padding: 50px 0;
+  text-align: center;
+
 }
 
 .services {
-  padding: 30px 0;
+  padding: 10px 0;
 
 }
 .services a {
   padding: 15px 20px;
   background-color: orange;
   color: #fff;
-  font-size: 2rem;
+  font-size: 4rem;
   border-radius: 5px;
 
 }
 
 .services h1 {
   color: #111;
-  font-size: 3rem;
-  padding-top: 30px;
+  font-size: 2rem;
+  padding: 10px;
   font-family: 'Abril Fatface', cursive;
   text-shadow: 2px 2px 5px #000;
+
 }
 
 .services p {
   font-size: 1.1rem;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   font-family: 'Questrial', sans-serif;
+
 }
 
 .like {
   border: 2px solid #f1f1f1;
   padding: 20px 0;
+
 }
 
 .like h1 {
@@ -138,7 +164,7 @@ body {
   font-size: 1.5rem;
   padding-top: 30px;
   font-family: 'Abril Fatface', cursive;
-  margin-left: 50px;
+
 
 }
 .like a {
@@ -150,18 +176,19 @@ body {
   text-transform: uppercase;
   font-family: 'Questrial', sans-serif;
   color: #fff;
-  margin-right: 50px;
+
 }
 
 .main {
-  padding: 100px 0;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .works h2 {
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: 'Acme', sans-serif;
-  margin-right: 15px;
+
 }
 .works p {
   color: #fff;
@@ -180,7 +207,7 @@ body {
   text-transform: uppercase;
   font-family: 'Questrial', sans-serif;
   color: #fff;
-  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .works img {
@@ -196,13 +223,14 @@ body {
 
 .news {
   padding-top: 50px;
+  text-align: center;
 }
 
 .news h2 {
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: 'Acme', sans-serif;
-  margin-right: 15px;
+
 }
 .news p {
   color: #fff;
@@ -213,17 +241,16 @@ body {
 }
 
 .news a {
-  width: 90%;
+
   display: inline-block;
-  padding: 15px 25px;
+  padding: 15px 35px;
   background-color: orange;
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Questrial', sans-serif;
   color: #fff;
-  margin-right: 35px;
-  border: 1px solid red;
+
 }
 
 .news img {
@@ -238,44 +265,50 @@ body {
 }
 
 .social {
-  padding-top: 200px;
-  padding-bottom: 300px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   background-color: #fff;
   position: relative;
+  text-align: center;
 }
+
 .social__title {
   color: #000;
   padding-bottom: 20px;
   font-family: 'Acme', sans-serif;
   font-size: 5rem;
   text-shadow: 2px 2px 5px #000;
+
 }
+
 .social__title span {
   color: orange;
 }
 
 .social__links {
-
   margin-top: 70px;
+
 }
 
 .social__links a {
   color: #fff;
-  padding: 50px 60px;
+  padding: 20px 40px;
   background-color: #000;
   font-size: 5rem;
   border-radius: 5px;
+
 }
 
 .footer__content {
-  padding: 150px 0;
-  
+  padding: 50px 0;
+
 }
 
 .about, .dribble, .Latest-News, .contact {
-  width: 24%;
+
   text-align: center;
-  margin: 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
 }
 
 .about h2 {
@@ -330,4 +363,8 @@ body {
 .contact input {
   padding: 10px 20px;
   margin-bottom: 5px;
+}
+
+.contact textarea {
+
 }
