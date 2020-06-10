@@ -657,33 +657,50 @@ body {
 
   }
 
+  .footer {
+    
+    position: relative;
+  }
+
+  .footer__content {
+    
+    margin: 0;
+    padding: 0;
+  }
+
   .about, .dribble, .Latest-News, .contact {
-    text-align: center;
+    
     margin: 20px 0;
     border: none;
-    position: relative;
+    width: 50%;
+    
   }
 
   .about h2 {
     font-size: 2rem;
-    text-align: left;
+    position: absolute;
+    top: 40px;
   }
 
   .about p {
-    width: 50%;
+    width: 20%;
     text-align: left;
+    position: absolute;
+    top: 100px;
 
   }
   .dribble h2 {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 600px;
   }
 
   .dribble img {
-    width: 30%;
+    width: 60%;
     border-radius: 5px;
-
-
+    
   }
 
   .Latest-News h2 {
@@ -691,23 +708,25 @@ body {
   }
 
   .Latest-News p {
-    width: 50%;
+    width: 100%;
 
   }
 
   .Latest-News a {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact h2 {
-    color: #fff;
-    padding-bottom: 20px;
-    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 30px;
   }
 
   .contact input {
+    
     padding: 10px 20px;
     margin-bottom: 5px;
   }
+
 }
