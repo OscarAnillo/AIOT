@@ -26,8 +26,6 @@ body {
 
 }
 
-
-
 .logo {
   color: #fff;
   text-align: center;
@@ -366,5 +364,147 @@ body {
 }
 
 .contact textarea {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .logo {
+    font-size: 2rem;
+
+
+  }
+
+  .list {
+    margin-right: .9em;
+  }
+
+  .list__links {
+    font-size: 1.1rem;
+
+
+  }
+
+  .banner__content h1 {
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: 10px;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 65px;
+  }
+
+  .banner__content p {
+    color: #fff;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+    font-family: 'Questrial', sans-serif;
+
+  }
+
+  .banner__content a {
+    width: 25%;
+  }
+
+  .banner__content a:hover {
+    background-color: #AB00FF;
+  }
+
+  .works h2 {
+    font-size: 2.5rem;
+
+  }
+
+  .works a {
+    margin-bottom: 25px;
+  }
+
+  .works img {
+    width: 100%;
+  }
+
+
+  .news h2 {
+    font-size: 2rem;
+
+  }
+
+  .news a {
+
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+
+  }
+
+  .news img {
+    width: 100%;
+
+  }
+
+  .social__title {
+    color: #000;
+    padding-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px #000;
+
+  }
+
+  .social__title span {
+    color: orange;
+  }
+
+
+  .about, .dribble, .Latest-News, .contact {
+
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .dribble h2 {
+    font-size: 2rem;
+
+  }
+
+  .dribble img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .Latest-News h2 {
+    font-size: 2rem;
+
+  }
+
+  .Latest-News a {
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+
+  }
+
+  .contact input {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    position: relative;
+    top: -50px;
+    left: 0%;
+    border: 1px solid red;
+  }
+
+
 
 }
